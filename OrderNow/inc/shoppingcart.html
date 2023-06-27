@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="..//CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-light navbar sticky-top" style="background-color: #60abc9;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../Index.php" style="color: white;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Shop.php" style="color: white;">Shop</a></li>
+                    <!--<li class="nav-item"><a class="nav-link" href="#" style="color: white;">Über uns</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="./FAQ.php" style="color: white;">Kontakt & Hilfe</a></li>
+                </ul>
+            </div>
+            <h2 class="navbar-title" style="color: white;">OrderNow</h2>
+        </div>
+    </nav>
+    
+   <section style="margin-top: 100px" class="cart-section">
+    <h1 style="margin-top: 20px; margin-bottom: 50px; color: #465975; text-align: center">Einkaufswagen</h1>
+    <ul id="cart-products"></ul>
+    <p id="cart-price"></p>
+    <button id="delete-button" class="styled-button">Delete Cart</button>
+    <form action="Bezahlung.php">
+        <input class="styled-button" type="submit" value="Bezahlen">
+    </form>
+  </section>
+
+
+  <script src="../JS/shoppingcart.js"></script>
+</body>
+</html>

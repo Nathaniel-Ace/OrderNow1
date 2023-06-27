@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PayPal Zahlung</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0070ba;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00578a;
+        }
+
+        /* Styling für das kleine Fenster */
+        .popup-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            display: none;
+        }
+
+        .popup-content {
+            text-align: center;
+        }
+
+        .popup-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0070ba;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .popup-button:hover {
+            background-color: #00578a;
+        }
+    </style>
+</head>
+<body>
+    <h1>PayPal Zahlung</h1>
+    <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input id="paypalButton" type="submit" value="Mit PayPal anmelden">
+    </form>
+
+    <div id="popup" class="popup-container">
+        <div class="popup-content">
+            <p>Bestätigen Sie Ihre Paypal-Anmeldung!</p>
+            <button class="popup-button" onclick="closePopup()">Bestätigen</button>
+        </div>
+    </div>
+
+    <script>
+        function closePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }
+
+        document.getElementById('paypalButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            var popup = document.getElementById('popup');
+            popup.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,860 @@
+/*NAV bar*/
+
+.navbar-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f1f0ef;
+    
+}
+
+#onlinestore 
+{
+    font-size: 40pt;
+    color: black;
+    background-color: #60abc9;
+    
+    
+}
+
+h2 
+{
+    color: black;
+    background-color: #60abc9;
+}
+
+h3
+{
+  text-align: center;
+}
+
+p
+{
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+    padding-bottom: 2px;
+    
+}
+
+.p 
+{
+    width: 450px;
+}
+
+a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    text-align: left;
+    -webkit-transition: color .4s linear; -moz-transition: color .4s linear; -ms-transition: color .4s linear; -o-transition: color .4s linear; transition: color .4s linear;
+}
+
+a:hover
+{
+    text-decoration:underline;
+    color: white;
+}
+
+.a2
+{
+    color: black;
+    font-size: 12pt;
+    text-decoration: underline; 
+    text-align: left;
+    background-color: #60abc9;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 650; 
+    -webkit-transition: color .4s linear; -moz-transition: color .4s linear; -ms-transition: color .4s linear; -o-transition: color .4s linear; transition: color .4s linear;
+}
+
+.img
+{
+    padding-right: 27pt;
+    margin-bottom: 15px;
+}
+
+.img-dreispalter
+{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.span
+{
+    padding-left: 30px;
+}
+.nav
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.nav-reg
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bold
+{
+    font-weight: 650;
+}
+
+.text-container
+{
+    background-color: #60abc9;
+    padding: 8px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.maps-container
+{
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.maps-right
+{
+    margin-left: 10px;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.map-frame
+{
+    border: 0;
+    height: 600;
+    width: 70%;
+}
+
+.IH-container {
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Impressum {
+    width: 50%;
+}
+
+.Hilfe {
+    width: 50%;
+}
+
+#display-image{
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+}
+
+.carousel-item img {
+  max-width: 1100px; 
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  object-fit: cover; 
+  object-position: center; 
+  margin: auto; 
+}
+
+
+
+/* Login Page */
+.logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+    article,
+    aside,
+    details,
+    figure,
+    footer,
+    header,
+    main,
+    menu,
+    nav,
+    section,
+    summary {
+      display: block;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a {
+      -ms-word-wrap: break-word;
+      word-wrap: break-word;
+      text-decoration: none;
+    }
+    
+    img {
+      border: none;
+    }
+    
+    *:focus {
+      outline: none;
+    }
+    
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .bg-illustration {
+      position: relative;
+      height: 100vh;
+      width: 1194px;
+      background: url("../IMG/ProbeLogin.jpg") no-repeat center center scroll;
+      background-size: cover;
+      float: left;
+      -webkit-animation: bgslide 2.3s forwards;
+              animation: bgslide 2.3s forwards;
+    }
+    .bg-illustration img {
+      width: 248px;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      height: auto;
+      margin: 19px 0 0 25px;
+    }
+    
+    @-webkit-keyframes bgslide {
+      from {
+        left: -100%;
+        width: 0;
+        opacity: 0;
+      }
+      to {
+        left: 0;
+        width: 1194px;
+        opacity: 1;
+      }
+    }
+    
+    @keyframes bgslide {
+      from {
+        left: -100%;
+        width: 0;
+        opacity: 0;
+      }
+      to {
+        left: 0;
+        width: 1194px;
+        opacity: 1;
+      }
+    }
+    
+    #bgcolorlogin {
+      background-color: #f6f4e8;
+    }
+  
+    .login {
+      max-height: 100vh;
+      overflow-Y: auto;
+      float: left;
+      margin: 0 auto;
+      width: calc(100% - 1194px);
+    }
+    .login .container {
+      width: 505px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .login .container h1 {
+      font-family: "Arial","Helvetica","Sans-serif";
+      margin-top: 100px;
+      font-size: 35px;
+      font-weight: bolder;
+    }
+    .login .container .login-form {
+      margin-top: 100px;
+    }
+    .login .container .login-form form {
+      display: -ms-grid;
+      display: grid;
+    }
+    .login .container .login-form form input {
+      font-size: 16px;
+      font-weight: normal;
+      background: rgba(57, 57, 57, 0.07);
+      margin: 12.5px 0;
+      height: 68px;
+      border: none;
+      padding: 0 30px;
+      border-radius: 10px;
+    }
+    .login .container .login-form form button[type=submit] {
+      background: -webkit-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+      background: -o-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+      background: linear-gradient(-20deg, #6062e5 0%, #9ed0e3c4  100%);
+      border: none;
+      margin-top: 124px;
+      margin-bottom: 20px;
+      width: 241px;
+      height: 58px;
+      text-transform: uppercase;
+      color: white;
+      border-radius: 10px;
+      position: relative;
+      z-index: 2;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .login .container .login-form form button[type=submit]:hover::after {
+      opacity: 1;
+    }
+    .login .container .login-form form button[type=submit]::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      border-radius: 10px;
+      opacity: 0;
+      top: 0;
+      left: 0;
+      -webkit-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      right: 0;
+      bottom: 0;
+      background: -webkit-gradient(linear, left bottom, left top, from(#467c70), to(#bacec1 ));
+      background: -webkit-linear-gradient(bottom, #467c70) 0%, #bacec1 100%;
+      background: -o-linear-gradient(bottom, #467c70) 0%, #bacec1  100%;
+      background: linear-gradient(to top, #467c70) 0%, #bacec1  100%;
+    }
+   
+    h6:hover {
+      color: #1d3124;
+    }
+    
+    .login .container .Account{
+      position: absolute;
+      right: 10px;
+      margin-top: 189px;
+    }
+    .login .container .Account a {
+      font-size: 16px;
+      position: relative;
+      font-weight: normal;
+      color: #918F8F;
+    }
+    .login .container .Account a::after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      border-radius: 100px;
+      background: -webkit-linear-gradient(110deg, #a594f7 0%, #fdd6bd 100%);
+      background: -o-linear-gradient(110deg, #f794a4 0%, #fdd6bd 100%);
+      background: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+      bottom: -4px;
+      left: 0;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      opacity: 0;
+      right: 0;
+    }
+    .login .container .Account a:hover::after {
+      opacity: 1;
+    }
+    
+    @media only screen and (min-width: 1024px) and (max-width: 1680px) {
+      .bg-illustration {
+        width: 50%;
+        -webkit-animation: none;
+                animation: none;
+      }
+    
+      .login {
+        width: 50%;
+      }
+    }
+    /* Display 12", iPad PRO Portrait, iPad landscape */
+    @media only screen and (max-width: 1024px) {
+      body {
+        overflow-x: hidden;
+      }
+    
+      @-webkit-keyframes slideIn {
+        from {
+          left: -100%;
+          opacity: 0;
+        }
+        to {
+          left: 0;
+          opacity: 1;
+        }
+      } 
+    
+      @keyframes slideIn {
+        from {
+          left: -100%;
+          opacity: 0;
+        }
+        to {
+          left: 0;
+          opacity: 1;
+        }
+      } 
+  
+      .bg-illustration {
+        float: none;
+        background: url("../IMG/ProbeLogin.jpg") center center;
+        background-size: cover;
+        -webkit-animation: slideIn 0.8s ease-in-out forwards;
+                animation: slideIn 0.8s ease-in-out forwards;
+        width: 100%;
+        height: 190px;
+        text-align: center;
+      }
+      .bg-illustration img {
+        width: 100px;
+        height: auto;
+        margin: 20px auto !important;
+        text-align: center;
+      }
+      
+      .login {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .login .container {
+        -webkit-animation: slideIn 0.8s ease-in-out forwards;
+                animation: slideIn 0.8s ease-in-out forwards;
+        width: 85%;
+        float: none;
+      }
+      .login .container h1 {
+        font-size: 25px;
+        margin-top: 40px;
+      }
+      .login .container .login-form {
+        margin-top: 90px;
+      }
+      .login .container .login-form form input {
+        height: 45px;
+      }
+      .login .container .login-form form button[type=submit] {
+        height: 45px;
+        margin-top: 100px;
+      }}
+
+
+
+/*Registrierungsseite*/
+#registercolor {
+  background-color:#d4e8f3;;
+}  
+      
+#bgcolorregister {
+  background-color: #d6eef8c4;
+}
+
+.register {
+  max-height: 100vh;
+  overflow-Y: auto;
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+.register .container {
+  width: 505px;
+  margin: 0 auto;
+  position: relative;
+}
+.register .container h1 {
+  font-family: "Arial","Helvetica","Sans-serif";
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  color:  #465975;
+}
+.register .container .register-form {
+  margin-top: 50px;
+}
+.register .container .register-form form {
+  display: -ms-grid;
+  display: grid;
+}
+.register .container .register-form form input {
+  font-size: 16px;
+  font-weight: normal;
+  background: rgba(57, 57, 57, 0.07);
+  margin: 3px 0;
+  height: 68px;
+  border: none;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+.register .container .register-form form button[type=submit] {
+  background: -webkit-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+  background: -o-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+  background: linear-gradient(-20deg, #6062e5 0%, #9ed0e3c4 100%);
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 241px;
+  height: 58px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 20px;
+  display: block; 
+  margin: 50px auto 20px;
+}
+
+
+.register .container .register-form form button[type=submit]:hover::after {
+  opacity: 1;
+}
+.register .container .register-form form button[type=submit]::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#467c70), to(#bacec1));
+  background: -webkit-linear-gradient(bottom, #467c70) 0%, #bacec1 100%;
+  background: -o-linear-gradient(bottom, #467c70) 0%, #bacec1 100%;
+  background: linear-gradient(to top, #467c70) 0%, #bacec1 100%;
+}
+
+/* Responsive adjustments */
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
+  .register {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+      overflow-x: hidden;
+  }
+  .register {
+      float: none;
+      margin: 0 auto;
+      width: 100%;
+  }
+  .register .container {
+      width: 85%;
+      float: none;
+  }
+  .register .container h1 {
+      font-size: 25px;
+      margin-top: 40px;
+  }
+  .register .container .register-form {
+      margin-top: 90px;
+  }
+  .register .container .register-form form input {
+      height: 45px;
+  }
+  .register .container .register-form form button[type=submit] {
+      height: 45px;
+      margin-top: 100px;
+  }
+}
+
+
+/*FAQ*/
+.containerfaq {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/*Impressum*/
+.imprint-section {
+  max-width: 800px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.05);
+}
+
+h1 {
+  color: #1d3124;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  color: #6c757d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+p {
+  color: #343a40;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a.tel, a.mail {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a.tel:hover, a.mail:hover {
+  color: #0056b3;
+}
+
+/*Profile Page*/
+.custom-section {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  max-width: 800px; 
+}
+
+.custom-section h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.custom-section input[type="text"], .custom-section input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.custom-section input[type="submit"] {
+  color: #fff;
+  background-color: #007BFF;
+  border-color: #007BFF;
+  cursor: pointer;
+}
+
+.custom-section input[type="submit"]:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.profil input[type="submit"],
+.password input[type="submit"],
+.adress input[type="submit"] {
+    background: -webkit-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+    background: -o-linear-gradient(110deg, #6062e5 0%, #9ed0e3c4 100%);
+    background: linear-gradient(-20deg, #6062e5 0%, #9ed0e3c4 100%);
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 241px;
+    height: 45px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin: 50px auto 20px;
+}
+
+.profil input[type="submit"]:hover::after,
+.password input[type="submit"]:hover::after,
+.adress input[type="submit"]:hover::after {
+    opacity: 1;
+}
+
+.profil input[type="submit"]::after,
+.password input[type="submit"]::after,
+.adress input[type="submit"]::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    right: 0;
+    bottom: 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(#467c70), to(#bacec1));
+    background: -webkit-linear-gradient(bottom, #467c70) 0%, #bacec1 100%;
+    background: -o-linear-gradient(bottom, #467c70) 0%, #bacec1 100%;
+    background: linear-gradient(to top, #467c70) 0%, #bacec1 100%;
+}
+
+
+.profil .container .register-form form .form-control,
+.password form input[type="text"],
+.adress form input[type="text"],
+.profil .container .register-form form label,
+.password form label,
+.adress form label {
+    width: 80%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+
+
+.profil.custom-section,
+.password.custom-section,
+.adress.custom-section {
+    background-color: #e9eff1; 
+}
+
+
+/*Shopping Cart*/
+
+.shopping-page-centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.shopping-page-payment-options {
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-page-payment-options button {
+  margin: 0 10px;  
+}
+
+
+.shopping-page-submit-button {
+  margin: auto;
+  display: block;
+}
+.navbar-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+}
+
+/*Shopping Cart*/
+.cart-section {
+  background-color: #d9e6f4; 
+  padding: 20px;
+  margin: 20px auto; 
+  text-align: center;
+  width: 60%; 
+  box-sizing: border-box; 
+  border-radius: 20px;
+}
+.cart-section h2 {
+  margin-bottom: 20px;
+}
+.cart-section button {
+  margin-top: 20px;
+}
+
+input[type="submit"].styled-button,
+button.styled-button {
+  background: linear-gradient(-20deg, #6062e5 0%, #9ed0e3c4 100%);
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin: 50px auto 20px;
+}
+
+input[type="submit"].styled-button::after,
+button.styled-button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, #467c70) 0%, #bacec1 100%;
+}
+
+input[type="submit"].styled-button:hover,
+button.styled-button:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+input[type="submit"].styled-button:hover::after,
+button.styled-button:hover::after {
+  opacity: 1;
+}
+
+.cart-section {
+  text-align: center;
+}
+
+#cart-products {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+#cart-products li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#cart-price {
+  font-weight: bold;
+  color: green;
+}
+
